@@ -11,7 +11,7 @@ import SwiftUI
 struct homescreentestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreenView().environmentObject(MockAppRepository(gridCount: 23, dockCount: 3))
         }
     }
 }

@@ -25,6 +25,7 @@ struct ContentView: View {
                 geomerty in
                 VStack(spacing: 0.02*geomerty.size.height, content: {
                 HStack(spacing: 0.05*geomerty.size.width, content: {
+                    
                         VStack{
                             Rectangle().frame(width: (0.6*geomerty.size.width)/4.0, height: (450.0/1000.0*geomerty.size.height)/6.0, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                             Text("App Name")

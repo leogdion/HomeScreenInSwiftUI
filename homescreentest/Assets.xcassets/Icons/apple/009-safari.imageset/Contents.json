@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "009-safari.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
